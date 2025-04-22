@@ -19,7 +19,7 @@ import java.util.Scanner;
 class Exo1 {
     public static void main(String[] args) {
         Scanner num = new Scanner(System.in);
-        System.out.print("Entrer deux nombres :");         // Objet scanner demandant une entrée de 2 nombres
+        System.out.print("\nEntrer deux nombres :");         // Objet scanner demandant une entrée de 2 nombres
 
         int a = num.nextInt();                               // première variable nombre entier a
         int b = num.nextInt();                               // deuxième variable nombre entier b
