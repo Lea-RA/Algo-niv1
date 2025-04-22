@@ -1,0 +1,36 @@
+/* EXO1 : A l'aide de Scanner et Print, me faire afficher le résultat d'une addition de deux entiers        
+ * 
+ * 
+* **********************AFFICHAGE ATTENDU ****************:
+ * 
+ * a = 2
+ * b = 3
+ * 
+ * resultat = a + b
+ * 
+ * resulat vaut 5
+ * 
+ * 
+ * 
+*/
+
+import java.util.Scanner;
+
+class Exo1 {
+    public static void main(String[] args) {
+        Scanner num = new Scanner(System.in);
+        System.out.print("Entrer deux nombres :");         // Objet scanner demandant une entrée de 2 nombres
+
+        int a = num.nextInt();                               // première variable nombre entier a
+        int b = num.nextInt();                               // deuxième variable nombre entier b
+        int resultat = a + b;                                // entier résultat de la somme de a et b
+
+        System.out.println("\na = " + a + "\nb = " + b);     // sortie de a et b et de résultat
+        System.out.println("");
+        System.out.println("resultat = " + a + " + " + b);
+        System.out.println("");
+        System.out.println("resultat vaut " + resultat);
+
+    }
+
+}
