@@ -24,15 +24,13 @@ import java.util.Scanner;
         Scanner num = new Scanner(System.in);
         System.out.print("\nEntrer deux nombres :");                    // Objet scanner demandant une entrée de 2 nombres
 
-        int a = num.nextInt();                                          // première variable nombre entier a
-        int b = num.nextInt();                                          // première variable nombre entier b                                        
+        int a = num.nextInt();                                          // déclaration première variable nombre entier a
+        int b = num.nextInt();                                          // déclaration deuxième variable nombre entier b                                        
         int resultat = a - b;                                           // entier résultat de la différence de a et b
 
         System.out.println("\na = " + a + "\nb = " + b);                // sortie de a et b et de résultat
-        System.out.println("");
-        System.out.println("resultat = " + a + " - " + b);
-        System.out.println("");
-        System.out.println("resultat vaut " + resultat);
+        System.out.println("\nresultat = " + a + " - " + b);
+        System.out.println("\nresultat vaut " + resultat);
 
         if (resultat < 0) {
             System.out.print("\n" + resultat + " est inférieur à 0");   // s'affiche uniquement si le resultat est inférieur à 0
