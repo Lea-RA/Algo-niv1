@@ -47,5 +47,6 @@ class Exo10 {
         checkAnswr(true, rep5);
 
         System.out.println("Résultat : " + score + "\\5");   // affiche le score final
+        sc.close();
     }
 }

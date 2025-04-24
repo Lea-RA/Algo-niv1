@@ -35,5 +35,6 @@ import java.util.Scanner;
         if (resultat < 0) {
             System.out.print("\n" + resultat + " est inférieur à 0");   // s'affiche uniquement si le resultat est inférieur à 0
         }
+        num.close();
     }
  }

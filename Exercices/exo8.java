@@ -53,6 +53,6 @@ class Exo8 {
         } else {
             System.out.println("\nInscription annulée.");       // Avec la méthode equals() on vérifie la concordance des mots de passe
         }                                                           // sinon on annule l'inscription
-
+        sc.close();
     }
 }

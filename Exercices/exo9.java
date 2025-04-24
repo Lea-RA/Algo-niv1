@@ -80,6 +80,7 @@ class Exo9 {
             }
         } else {
             System.out.println("\nInscription annulée.");                    // confirmation invalide, on annule l'inscription
-        }                                                          
+        }  
+        sc.close();                                                        
     }
 }

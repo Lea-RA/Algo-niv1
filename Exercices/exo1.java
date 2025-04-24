@@ -28,7 +28,7 @@ class Exo1 {
         System.out.println("\na = " + a + "\nb = " + b);     // sortie de a et b et de résultat
         System.out.println("\nresultat = " + a + " + " + b);
         System.out.println("\nresultat vaut " + resultat);
-
+        num.close();
     }
 
 }

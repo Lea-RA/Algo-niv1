@@ -40,6 +40,7 @@ class Exo3 {
         } else {                                                         // sinon, il est impair
             System.out.println("\nresultat est impair");
         }
+        num.close();
     }
 
 }

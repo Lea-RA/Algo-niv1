@@ -33,5 +33,6 @@ class Exo5 {
         } else if (equation < 10) {
             System.out.println("\n" + equation + " est inférieur à 10");       // sinon affiche inférieur à 10
         }
+        num.close();
     }
 }

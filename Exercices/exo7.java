@@ -32,5 +32,6 @@ class Exo7 {
         } else {
             System.out.println("\nThis is not an acceptable answer.");          // Toute autre entrée sera non valide.
         }
+        eng.close();
     }
 }

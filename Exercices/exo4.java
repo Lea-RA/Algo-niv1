@@ -31,6 +31,6 @@ class Exo4 {
         } else {
             System.out.println("\n" + a + " n'est pas divisible par 2"); // sinon a n'est pas divisible par 2
         }
-
+        num.close();
     }
 }

@@ -27,5 +27,7 @@ class Exo6 {
         System.out.println("\nprénom = \"" + name + "\"");                          // affiche prénom
         System.out.println("\nâge = " + age);                                       // affiche âge
         System.out.println("\nJe m'appelle " + name + ", j'ai " + age + " ans");    // affiche une phrase avec nos variables prénom et âge
+        myInfo.close();
     }
+
 }
