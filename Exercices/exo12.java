@@ -35,7 +35,7 @@ class exo12 {
         if (pour100 < 100) {                                        // si le pourcentage est inférieur à 100
             float reduc1 = prix - (prix * pour100 / 100f);           // calcul reduc en produit en croix puis soustraction 
             float reduc = Math.round(reduc1 * 100f) / 100f;          // methode Math.round() permettant d'arrondir le prix au 2eme chiffre après la virgule (chaque centime compte !)
-            System.out.println("\nPrix après réduction de " + pour100 + "% : " + String.format("%.4f", reduc) + " euros"); //String.format() pour afficher le prix avec 2 chiffres derrière la virgule et pas plus
+            System.out.println("\nPrix après réduction de " + pour100 + "% : " + String.format("%.2f", reduc) + " euros"); //String.format() pour afficher le prix avec 2 chiffres derrière la virgule et pas plus
         } else if (pour100 >= 100) {                                    // si pourcentage est supérieur à 100, le prix passe en dessous de 0€ et devient donc théoriquement gratuit
             System.out.println("\nOn ne donne rien gratuitement !");
         }

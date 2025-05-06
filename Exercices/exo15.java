@@ -67,6 +67,8 @@ class exo15 {
 
         // si la monnaie et la devise correspond à ce qui a été tapé par l'utilisateur, affiche la conversion
 
+        /******************************************************************************
+        
         if (monnaie.equals("EUR") && devise.equals("USD")) {                        
             System.out.println("Résultat : " + String.format("%.2f", EURtoUSD) + " USD");
         } else if (monnaie.equals("USD") && devise.equals("EUR")) {
@@ -93,7 +95,52 @@ class exo15 {
             System.out.println("Résultat : " + String.format("%.2f", JPYtoGBP) + " GBP");
         } else {
             System.out.println("Conversion annulée.");      // si devise = monnaie ou n'importe autre information est rentrée, la conversion échoue.
+        }         
+        *********************************************/
+
+
+        String conversion = monnaie + "-" + devise;  // Déclaration d'une variable string prenant monnaie + devise
+        switch (conversion) {                       // switch permettant d'alleger le code
+            case "EUR-USD":
+                System.out.println("Résultat : " + String.format("%.2f", EURtoUSD) + " USD");
+                break;
+            case "USD-EUR":
+                System.out.println("Résultat : " + String.format("%.2f", USDtoEUR) + " EUR");
+                break;
+            case "EUR-GBP":
+                System.out.println("Résultat : " + String.format("%.2f", EURtoGBP) + " GBP");
+                break;
+            case "GBP-EUR":
+                System.out.println("Résultat : " + String.format("%.2f", GBPtoEUR) + " EUR");
+                break;
+            case "USD-GBP":
+                System.out.println("Résultat : " + String.format("%.2f", USDtoGBP) + " GBP");
+                break;
+            case "GBP-USD":
+                System.out.println("Résultat : " + String.format("%.2f", GBPtoUSD) + " USD");
+                break;
+            case "EUR-JPY":
+                System.out.println("Résultat : " + String.format("%.2f", EURtoJPY) + " JPY");
+                break;
+            case "JPY-EUR":
+                System.out.println("Résultat : " + String.format("%.2f", JPYtoEUR) + " EUR");
+                break;
+            case "USD-JPY":
+                System.out.println("Résultat : " + String.format("%.2f", USDtoJPY) + " JPY");
+                break;
+            case "JPY-USD":
+                System.out.println("Résultat : " + String.format("%.2f", JPYtoUSD) + " USD");
+                break;
+            case "GBP-JPY":
+                System.out.println("Résultat : " + String.format("%.2f", GBPtoJPY) + " JPY");
+                break;
+            case "JPY-GBP":
+                System.out.println("Résultat : " + String.format("%.2f", JPYtoGBP) + " GBP");
+                break;
+            default:
+                System.out.println("Conversion non disponible.");
+                break;
+            }
+            sc.close();
         }
-        sc.close();
-    }
 }

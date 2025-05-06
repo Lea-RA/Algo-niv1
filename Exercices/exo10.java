@@ -42,7 +42,7 @@ class Exo10 {
         String rep4 = sc.nextLine().toLowerCase();
         checkAnswr(true, rep4);
 
-        System.out.println("Le koala possède-t-il des empreintes digitales ? (Vrai ou Faux)");
+        System.out.println("Le koala possède-t-il des empreintes digitales semblables aux humains ? (Vrai ou Faux)");
         String rep5 = sc.nextLine().toLowerCase();
         checkAnswr(true, rep5);
 
