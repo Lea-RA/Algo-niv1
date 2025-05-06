@@ -80,6 +80,7 @@ class exo20 {
                 System.out.println("\nAucun candidat n'a atteint 60%, un nouveau tour est nécessaire.");        // sinon on refait un tour
                 System.out.println("\n=== Nouveau tour ===");
             }
-        }   
+        }
+        sc.close();   
     }
 }
