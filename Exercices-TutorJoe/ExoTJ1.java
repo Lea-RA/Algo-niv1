@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class ExoTJ1 {
+public class exoTJ1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
@@ -13,7 +13,7 @@ public class ExoTJ1 {
 
         /*********************/
 
-        System.out.println("Premier nombre: ");
+        System.out.println("\nPremier nombre: ");
         num1 = sc.nextInt();
         System.out.println("Deuxième nombre: ");
         num2 = sc.nextInt();
@@ -23,10 +23,12 @@ public class ExoTJ1 {
         if (num1<num2) {
             System.out.println("Nombre maximum :"+num2);
         } else if (num1>num2) {
-            System.out.println("Nombre maximum :"+num1);
+            System.out.println("Nombre maximum : "+num1);
         } else {
             System.out.println("Les nombres "+num1+" sont égaux.");
         }
+
+        sc.close();
     }
     
 }
